@@ -1,35 +1,39 @@
-import { Github } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
+import React from "react";
 
-const Hero = () => {
-  return (
-    <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
-      <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6">
-        <span>
-          <Heading
-            level="h1"
-            className="text-3xl leading-10 text-ui-fg-base font-normal"
-          >
-            Front Page Hero for Outabounds Ecom Frontend!
-          </Heading>
-          <Heading
-            level="h2"
-            className="text-3xl leading-10 text-ui-fg-subtle font-normal"
-          >
-            Ready to Hit the Slopes?
-          </Heading>
-        </span>
-        <a
-          href="" //TODO Location Link
-          target="_blank"
-        >
-          <h1 style={{ textDecoration: "underline" }}>
-            Visit our shop
-          </h1>
-        </a>
-      </div>
+const Hero = () => (
+  <section className="bg-gradient-to-b from-blue-100 to-white py-16 px-4 text-center">
+    <h1 className="text-4xl md:text-6xl font-bold text-blue-900 mb-4">
+      Denver’s Largest Source for New & Used Skis and Snowboards
+    </h1>
+    <p className="text-lg md:text-2xl text-blue-800 mb-6 max-w-2xl mx-auto">
+      Get your whole family on the slopes—affordably! Shop the best selection of
+      new and used gear, plus expert tunes, repairs, and rentals. Serving the
+      Denver metro area.
+    </p>
+    <div className="flex flex-col md:flex-row gap-4 justify-center mb-6">
+      <a
+        href="/shop/skis"
+        className="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-8 rounded shadow"
+      >
+        Shop Skis
+      </a>
+      <a
+        href="/shop/snowboards"
+        className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded shadow"
+      >
+        Shop Snowboards
+      </a>
+      <a
+        href="/services"
+        className="bg-white border border-blue-700 text-blue-700 font-semibold py-3 px-8 rounded shadow hover:bg-blue-50"
+      >
+        Rentals & Repairs
+      </a>
     </div>
-  )
-}
+    <div className="text-blue-700 font-medium">
+      <span>Family-owned • Local Denver Experts • All Budgets Welcome</span>
+    </div>
+  </section>
+);
 
-export default Hero
+export default Hero;
