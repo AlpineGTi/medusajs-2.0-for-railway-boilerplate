@@ -111,7 +111,7 @@ export default async function Footer() {
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
               <li>
                   <a
-                    href="" //TODO B&M Link
+                    href="/location" //TODO B&M Link
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
@@ -141,7 +141,7 @@ export default async function Footer() {
                 </li>
                 <li>
                   <a
-                    href=""//TODO: Wholesale Link
+                    href="/wholesale"//TODO: Wholesale Link
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
@@ -151,12 +151,22 @@ export default async function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/medusajs/nextjs-starter-medusa" //TODO About Link
+                    href="about" //TODO About Link
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
                   >
                     About Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/customer_service"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-ui-fg-base"
+                  >
+                    Customer Support
                   </a>
                 </li>
                 <li>
@@ -177,7 +187,16 @@ export default async function Footer() {
           <Text className="txt-compact-small">
             © 2010-{new Date().getFullYear()} Outabounds Ski and Board. All rights reserved.
           </Text>
-          <MedusaCTA /> 
+          <li>
+                  <a
+                    href="/terms-and-conditions" //TODO: Terms and Conditions Link
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-ui-fg-base"
+                  >
+                    Terms and Conditions
+                  </a>
+                </li>
         </div> 
       </div>
     </footer>
