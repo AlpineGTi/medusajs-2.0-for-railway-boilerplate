@@ -192,8 +192,7 @@ export default async function Footer() {
                     href="/terms-and-conditions" //TODO: Terms and Conditions Link
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:text-ui-fg-base"
-                  >
+                    className="txt-compact-small txt-ui-fg-muted hover:text-ui-fg-base">
                     Terms and Conditions
                   </a>
                 </li>
