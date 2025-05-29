@@ -177,8 +177,8 @@ export default async function Footer() {
           <Text className="txt-compact-small">
             © 2010-{new Date().getFullYear()} Outabounds Ski and Board. All rights reserved.
           </Text>
-          <MedusaCTA /> //built with Medusa and Next.js
-        </div>
+          <MedusaCTA /> 
+        </div> 
       </div>
     </footer>
   )
