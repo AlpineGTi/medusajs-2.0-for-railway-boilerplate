@@ -187,15 +187,13 @@ export default async function Footer() {
           <Text className="txt-compact-small">
             © 2010-{new Date().getFullYear()} Outabounds Ski and Board. All rights reserved.
           </Text>
-          <li>
-                  <a
+                 <a>
                     href="/terms-and-conditions" //TODO: Terms and Conditions Link
                     target="_blank"
                     rel="noreferrer"
                     className="txt-compact-small txt-ui-fg-muted hover:text-ui-fg-base">
                     Terms and Conditions
                   </a>
-                </li>
         </div> 
       </div>
     </footer>
