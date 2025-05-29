@@ -171,7 +171,7 @@ export default async function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/medusajs/nextjs-starter-medusa"  //TODO Review Management Link
+                    href="https://reviews.alfaphox.com/outabounds"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
